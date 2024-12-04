@@ -1,0 +1,10 @@
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\bin\Debug\BaiThucHanh3.exe.config
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\bin\Debug\BaiThucHanh3.exe
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\bin\Debug\BaiThucHanh3.pdb
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.csproj.AssemblyReference.cache
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.Form1.resources
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.Properties.Resources.resources
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.csproj.GenerateResource.cache
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.csproj.CoreCompileInputs.cache
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.exe
+D:\Workspace\winform\ThucHanh\BaiThucHanh3\obj\Debug\BaiThucHanh3.pdb
