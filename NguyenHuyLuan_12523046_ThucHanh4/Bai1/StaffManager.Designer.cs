@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dgvStaff = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -58,6 +59,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.txbStaffCode = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.txbFind = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.btnFind = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStaff)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -84,6 +88,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnFind);
+            this.groupBox1.Controls.Add(this.txbFind);
             this.groupBox1.Controls.Add(this.panel6);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox2);
@@ -359,6 +365,30 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã nhân viên";
             // 
+            // txbFind
+            // 
+            this.txbFind.Location = new System.Drawing.Point(493, 386);
+            this.txbFind.Multiline = true;
+            this.txbFind.Name = "txbFind";
+            this.txbFind.Size = new System.Drawing.Size(287, 33);
+            this.txbFind.TabIndex = 5;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // btnFind
+            // 
+            this.btnFind.Location = new System.Drawing.Point(786, 380);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(134, 46);
+            this.btnFind.TabIndex = 8;
+            this.btnFind.Text = "Tìm kiếm";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
+            // 
             // StaffManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -370,6 +400,7 @@
             this.Text = "StaffManager";
             ((System.ComponentModel.ISupportInitialize)(this.dgvStaff)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -420,5 +451,8 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.TextBox txbStaffPassword;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.TextBox txbFind;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

@@ -177,27 +177,24 @@ namespace Bai1
             // Sử dụng CommandBehavior.CloseConnection để đóng connection khi reader bị dispose
             return command.ExecuteReader(CommandBehavior.CloseConnection);
         }
-        public static DataTable FillDataTable(string sql)
+
+
+        public static DataTable FillDataTable (string query)
         {
+            DataTable data = new DataTable();
+
             SqlConnection connection = new SqlConnection(connectionString);
-            
-                connection.Open();
+            connection.Open();
 
-                DataTable dt = new DataTable();
+            SqlCommand command = new SqlCommand(query, connection);
 
-                SqlDataAdapter da = new SqlDataAdapter();
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
 
-                SqlCommand cmd = new SqlCommand(sql, connection);
+            adapter.Fill(data);
 
-                da.SelectCommand = cmd;
-
-                da.Fill(dt);
-
-                connection.Close();
-
-                return dt;
-            
+            return data;
         }
+
         public static void InsertTable(DataTable tb, object[] gt)
         {
             // Kiểm tra nếu số lượng giá trị không khớp với số lượng cột
@@ -270,6 +267,8 @@ namespace Bai1
                 adapter.Update(dt);
             }
         }
+
+
     }
 }
 

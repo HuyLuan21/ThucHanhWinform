@@ -1,6 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bai1
@@ -51,19 +57,13 @@ namespace Bai1
                 FROM
                   nhanvien 
                 ";
-            DataHelper.FillDataTable(query);
+            
+            DataTable dataTable = DataHelper.FillDataTable(query);
+
             dgvStaff.Controls.Clear();
-            dgvStaff.DataSource = DataHelper.FillDataTable(query);
 
-            //SqlDataReader reader = DataHelper.ExcuteReader(query);
+            dgvStaff.DataSource = dataTable;
 
-            //// convert to datatable 
-            //DataTable dataTable = new DataTable();
-            //dataTable.Load(reader);
-
-            //dgvStaff.Controls.Clear();
-
-            //dgvStaff.DataSource = dataTable;
         }
 
         private void btnAddStaff_Click(object sender, EventArgs e)
@@ -78,9 +78,9 @@ namespace Bai1
             // check if exists staff code
 
             string existsQuery = $@"
-                SELECT tendangnhap
+                SELECT manhanvien
                 FROM nhanvien
-                WHERE tendangnhap = '{staffUserName}'
+                WHERE manhanvien = '{staffCode}'
             ";
 
             SqlDataReader reader = DataHelper.ExcuteReader(existsQuery);
@@ -92,7 +92,7 @@ namespace Bai1
 
             string query = $@"
                 INSERT INTO nhanvien
-                VALUES('{staffCode}', '{staffName}', '{staffAddress}', '{staffUserName}', '{staffPassword}', '{staffPermission}')
+                VALUES('{staffCode}', N'{staffName}', N'{staffAddress}', N'{staffUserName}', N'{staffPassword}', '{staffPermission}')
             ";
 
             int rowAffected = DataHelper.ExcuteNonQuery(query);
@@ -143,16 +143,16 @@ namespace Bai1
             // Khởi tạo các tham số cho thủ tục
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@MaNV", maNV),
-                new SqlParameter("@HoTen", hoTen),
-                new SqlParameter("@DiaChi", diaChi),
-                new SqlParameter("@TenDangNhap", tenDangNhap),
-                new SqlParameter("@MatKhau", matKhau),
-                new SqlParameter("@QuyenHan", quyenHan)
+                new SqlParameter("@manhanvien", maNV),
+                new SqlParameter("@hoten", hoTen),
+                new SqlParameter("@diachi", diaChi),
+                new SqlParameter("@tendangnhap", tenDangNhap),
+                new SqlParameter("@matkhau", matKhau),
+                new SqlParameter("@quyenhan", quyenHan)
             };
 
             // Gọi phương thức StoreNonQuery để thực thi thủ tục
-            int rowsAffected = DataHelper.StoreNonQuery("SuaNhanVien", parameters);
+            int rowsAffected = DataHelper.StoreNonQuery("UpdateNhanVien", parameters);
 
             if (rowsAffected > 0)
             {
@@ -168,6 +168,36 @@ namespace Bai1
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            string findValue = txbFind.Text;
+
+            // Lấy giá trị cần tìm từ TextBox
+            string searchValue = txbFind.Text;
+
+            // Duyệt qua từng dòng trong DataGridView
+            foreach (DataGridViewRow row in dgvStaff.Rows)
+            {
+                // Bỏ qua dòng cuối nếu AllowUserToAddRows = true
+                if (row.IsNewRow) continue;
+
+                // Kiểm tra nếu ô đầu tiên chứa giá trị cần tìm
+                if (row.Cells[0].Value != null && row.Cells[0].Value.ToString().Contains(searchValue))
+                {
+                    // Đưa con trỏ đến ô đầu tiên của dòng tìm thấy
+                    dgvStaff.CurrentCell = row.Cells[0];
+
+                    // Scroll để hiển thị dòng được tìm thấy
+                    dgvStaff.FirstDisplayedScrollingRowIndex = row.Index;
+
+                    return;
+                }
+            }
+
+            // Hiển thị thông báo nếu không tìm thấy
+            MessageBox.Show("Không tìm thấy kết quả phù hợp.", "Thông báo");
         }
     }
 }
