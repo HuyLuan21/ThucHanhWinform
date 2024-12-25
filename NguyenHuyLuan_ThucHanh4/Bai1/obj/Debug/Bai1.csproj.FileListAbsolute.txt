@@ -22,3 +22,15 @@ D:\Workspace\winform\ThucHanh\BaiThucHanh4\Bai1\obj\Debug\Bai1.csproj.GenerateRe
 D:\Workspace\winform\ThucHanh\BaiThucHanh4\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
 D:\Workspace\winform\ThucHanh\BaiThucHanh4\Bai1\obj\Debug\Bai1.exe
 D:\Workspace\winform\ThucHanh\BaiThucHanh4\Bai1\obj\Debug\Bai1.pdb
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\bin\Debug\Bai1.exe.config
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\bin\Debug\Bai1.exe
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\bin\Debug\Bai1.pdb
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.ConfigForm.resources
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.LoginForm.resources
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.Properties.Resources.resources
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.StaffManager.resources
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.exe
+C:\Users\Admin\source\repos\Winform\ThucHanhWinform\NguyenHuyLuan_ThucHanh4\Bai1\obj\Debug\Bai1.pdb

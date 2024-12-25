@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\Bai1.exe.config
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\Bai1.exe
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\Bai1.pdb
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.Form1.resources
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.Properties.Resources.resources
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.csproj.Up2Date
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.exe
+C:\Users\Admin\source\repos\Winform\ThucHanh\ThucHanh5\Bai1\obj\Debug\Bai1.pdb

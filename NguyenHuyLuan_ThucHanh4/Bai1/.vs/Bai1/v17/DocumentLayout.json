@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|c:\\users\\admin\\source\\repos\\winform\\thuchanhwinform\\nguyenhuyluan_12523046_thuchanh4\\bai1\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|c:\\users\\admin\\source\\repos\\winform\\thuchanhwinform\\nguyenhuyluan_thuchanh4\\bai1\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|solutionrelative:staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|solutionrelative:staffmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F9812EB-0F33-4217-B19B-CD52888ECD4B}|Bai1.csproj|solutionrelative:datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,23 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StaffManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\StaffManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\StaffManager.cs",
               "RelativeDocumentMoniker": "StaffManager.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\StaffManager.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\StaffManager.cs [Design]",
               "RelativeToolTip": "StaffManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T08:10:56.616Z",
@@ -48,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DataHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\DataHelper.cs",
               "RelativeDocumentMoniker": "DataHelper.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\DataHelper.cs",
               "RelativeToolTip": "DataHelper.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAuwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StaffManager.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\StaffManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\StaffManager.cs",
               "RelativeDocumentMoniker": "StaffManager.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_12523046_ThucHanh4\\Bai1\\StaffManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Winform\\ThucHanhWinform\\NguyenHuyLuan_ThucHanh4\\Bai1\\StaffManager.cs",
               "RelativeToolTip": "StaffManager.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAAAALUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
